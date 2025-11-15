@@ -1,0 +1,69 @@
+# --- CMake Build Artifacts ---
+# Standard build directories (covers common naming conventions)
+build/
+Build/
+cmake-build-debug/
+cmake-build-release/
+out/
+bin/
+
+# CMake generation files (if built in root - discouraged but happens)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+*.cmake
+
+# --- Executables and Libraries ---
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# macOS Bundle (specific to our SFML setup)
+*.app/
+
+# --- OS Specific ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- IDE / Editor Configuration ---
+# VS Code
+.vscode/
+!.vscode/settings.json # Optional: Keep shared settings if you want
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+
+# JetBrains (CLion)
+.idea/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.opensdf
+*.sdf
+
+# --- SFML/Dependency Specific ---
+# If you decide to download dependencies locally instead of system-wide
+external/
+vcpkg/
+vcpkg_installed/
