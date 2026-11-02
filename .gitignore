@@ -62,6 +62,8 @@ xcuserdata/
 *.opensdf
 *.sdf
 
+.cache/
+
 # --- SFML/Dependency Specific ---
 # If you decide to download dependencies locally instead of system-wide
 external/
