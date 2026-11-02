@@ -8,6 +8,9 @@ The pendulum wave effect occurs when a series of uncoupled simple pendulums with
 
 ## Physics & Mathematical Model
 
+> [!NOTE]
+> This simulation models **ideal mathematical (simple) pendulums** under the small-angle approximation—point masses suspended from massless, inextensible strings oscillating without air resistance, pivot friction, or physical collisions.
+
 Given a global cycle period $T_{\text{total}} = 60\text{ s}$ and a base oscillation count $N_0 = 50$, the $i$-th pendulum ($i \in \{0, 1, \dots, 24\}$) completes $N_0 + i$ oscillations per cycle:
 
 $$T_i = \frac{T_{\text{total}}}{N_0 + i}, \qquad \omega_i = \frac{2\pi}{T_i}$$
